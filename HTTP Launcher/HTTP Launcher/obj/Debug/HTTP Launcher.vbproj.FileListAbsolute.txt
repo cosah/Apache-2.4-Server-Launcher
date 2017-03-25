@@ -1,0 +1,13 @@
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\bin\Debug\HTTP Launcher.exe.config
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\bin\Debug\HTTP Launcher.exe
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\bin\Debug\HTTP Launcher.pdb
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\bin\Debug\HTTP Launcher.xml
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP Launcher.vbprojResolveAssemblyReference.cache
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\WindowsApp1.frmHTTPLaunch.resources
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP Launcher.vbproj.GenerateResource.Cache
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP Launcher.exe
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP Launcher.xml
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP Launcher.pdb
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP_Launcher.frmHTTPLaunch.resources
+C:\Users\vmBoss\Documents\HTTP_Launcher\HTTP Launcher\HTTP Launcher\obj\Debug\HTTP_Launcher.Resources.resources
