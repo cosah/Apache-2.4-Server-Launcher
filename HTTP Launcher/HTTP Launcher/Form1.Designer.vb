@@ -68,6 +68,9 @@ Partial Class frmHTTPLaunch
         Me.Controls.Add(Me.lblStatus)
         Me.Controls.Add(Me.btnStop)
         Me.Controls.Add(Me.btnStart)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(389, 189)
+        Me.MinimumSize = New System.Drawing.Size(389, 189)
         Me.Name = "frmHTTPLaunch"
         Me.Text = "HTTP Launchpad"
         Me.ResumeLayout(False)

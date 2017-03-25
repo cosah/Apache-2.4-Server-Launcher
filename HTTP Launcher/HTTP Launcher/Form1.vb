@@ -1,16 +1,9 @@
 ﻿Imports System.ComponentModel
 
 Public Class frmHTTPLaunch
-    Dim status As String = ""
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Try
-            Dim procInfo As New ProcessStartInfo()
-            procInfo.UseShellExecute = True
-            procInfo.FileName = "httpstart.bat"
-            procInfo.WorkingDirectory = ""
-            procInfo.Verb = "runas"
-            Process.Start(procInfo)
+            Shell("C:\Apache24\bin\httpd.exe -k start")
             lblStatus.Text = "Running"
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString())
@@ -19,12 +12,7 @@ Public Class frmHTTPLaunch
 
     Private Sub btnStop_Click(sender As Object, e As EventArgs) Handles btnStop.Click
         Try
-            Dim procInfo As New ProcessStartInfo()
-            procInfo.UseShellExecute = True
-            procInfo.FileName = "httpstop.bat"
-            procInfo.WorkingDirectory = ""
-            procInfo.Verb = "runas"
-            Process.Start(procInfo)
+            Shell("C:\Apache24\bin\httpd.exe -k stop")
             lblStatus.Text = "Stopped"
         Catch ex As Exception
             MessageBox.Show(ex.Message.ToString())
@@ -34,12 +22,7 @@ Public Class frmHTTPLaunch
     Private Sub frmHTTPLaunch_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
         If lblStatus.Text <> "Stopped" Then
             Try
-                Dim procInfo As New ProcessStartInfo()
-                procInfo.UseShellExecute = True
-                procInfo.FileName = "httpstop.bat"
-                procInfo.WorkingDirectory = ""
-                procInfo.Verb = "runas"
-                Process.Start(procInfo)
+                Shell("C:\Apache24\bin\httpd.exe -k stop")
                 lblStatus.Text = "Stopped"
             Catch ex As Exception
                 MessageBox.Show(ex.Message.ToString())
